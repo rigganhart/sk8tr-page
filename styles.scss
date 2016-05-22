@@ -1,18 +1,18 @@
 body {
   background-image: url("images/bg.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
-
-
 }
 
 // main column
 .main-column {
   vertical-align: top;
   display: inline-block;
-  width: 100%;
-  padding-left: 33%;
-  padding-right: 33%;
+  width: 55%;
+  padding-left: 24%;
 }
+
+
 
 // header
 .header {
@@ -30,70 +30,200 @@ body {
   display: inline-block;
   vertical-align: top;
   width: 19%;
-  background-color: black;
   color: white;
   font-family: helvetica, sans-serif;
   font-size: 2em;
-  margin: auto;
+  margin-left: 50%;
+}
+
+.subscribe a {
+  text-decoration: none;
+  color: white
 }
 .header-block {
   display: inline-block;
   vertical-align: top;
-  width: 19%;
-  margin: auto;
-  background-color: white;
+  float: right;
 }
 
+.header-block div{
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    display: inline-block;
+    background-size: contain;
+}
+.face {
+  background-image: url("images/download.png");
+}
+.pod {
+  background-image: url("images/podcast.png");
+}
+.twit {
+  background-image: url("images/download.jpeg");
 
+}
+.you {
+  background-image: url("images/youtube.jpeg");
+}
 
 // nav bar
 .nav-bar {
   display: inline-block;
   vertical-align: top;
   width: 100%;
+  margin-top: 2%;
 }
  .nav-button {
    display: inline-block;
    vertical-align: top;
    width: 24%;
   background-color: red;
+  border-bottom: 3px solid grey;
+ }
+ .nav-button h2 {
+   color: white;
+   text-align: center;
  }
 
 // slider
 .slider-row {
   display: inline-block;
   vertical-align: top;
-  background: url('images/top-image.png') no-repeat;
-  background-size: contain;
-  height:480px;
-
+  background: url('images/grid.png.');
+  background: url('images/top-image.png');
+  background-size: 168%;
+  background-position: 38% 20%;
+  height:300px;
+  width: 96%;
+  border: 10px solid white;
+  margin-top: 2%;
 }
-// .slide {
-  // height: 100%;
-  width: 100%;
-// }
+
+.slider-row img {
+  width: 40%;
+  height: 73%;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+
+
+
+
 // articles row
 .articles-row {
   display: inline-block;
   vertical-align: top;
+  margin-top: 10%;
+  width: 100%;
+
 }
 .article {
   display: inline-block;
   vertical-align: top;
-  width: 32%;
+  width: 33%;
   background-color: white;
 }
+.article h1{
+  color: grey;
+    padding: 5%;
+}
+
+.article p {
+  color: grey;
+  padding: 5%;
+}
+.article h3 {
+  color: red;
+  padding: 5%;
+  text-align: center;
+}
+
+
 
 // skaters row
 .skaters-row {
   display: inline-block;
   vertical-align: top;
   width: 100%;
+  height: 500px;
+  margin-top: 10%;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
 }
-.skater {
+
+.other-skaters {
   display: inline-block;
   vertical-align: top;
-  width: 24%;
+  width: 68%;
+  height: 100%;
+  padding: 0;
+}
+
+.other-skaters ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+.skater-b {
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+  height: 49%;
+  background-image: url("images/sk8er-4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 97%;
+  border: 4px solid white;
+  margin-bottom: 1%;
+}
+
+.skater-c  {
+  display: inline-block;
+  vertical-align: top;
+  width: 46%;
+  height: 49%;
+  background-image: url("images/sk8er-3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 18%;
+  border: 4px solid white;
+
+}
+
+.h-skater {
+  display: inline-block;
+  vertical-align: top;
+  width: 98%;
+  height: 49%;
+  background-image: url("images/sk8er-1.png");
+  background-size: 112%;
+  background-repeat: no-repeat;
+  border: 4px solid white;
+}
+
+.v-skater {
+  display: inline-block;
+  vertical-align: top;
+  width: 29%;
+  height: 100%;
+  background-image: url("images/sk8er-2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 78% 30%;
+  border: 4px solid white;
+}
+
+.skaters-row p {
+  margin: 0;
+  font-size: 150%;
 }
 
 
@@ -101,6 +231,7 @@ body {
 .decks-row {
   display: inline-block;
   vertical-align: top;
+  margin-top: 10%;
   width: 100%;
   background-color: white;
 }
@@ -110,11 +241,26 @@ body {
   width: 9%;
 }
 
+
+
+
+
 // contact row
 .contact-row {
   display: inline-block;
   vertical-align: top;
+  margin-top: 10%;
   width: 100%;
   border: 1px solid red;
   background-color: white;
+}
+.text {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+.form {
+  display: inline-block;
+  vertical-align: top;
+  width: 69%;
 }

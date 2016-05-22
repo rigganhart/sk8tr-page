@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Sk8tr</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+    <link href="normalize.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -15,10 +15,12 @@
 <!-- header -->
       <div class="header">
         <ul>
-          <li class="subscribe"><a href="#"><div>Subscribe</div></a></li>
-          <li class="header-block"><a href="#"><div>pic</div></a></li>
-          <li class="header-block"><a href="#"><div>pic</div></a></li>
-          <li class="header-block"><a href="#"><div>pic</div></a></li>
+          <li class="subscribe"><a href="#"><div>Subscribe .</div></a></li>
+          <li class="header-block"><div class="face"></div></li>
+          <li class="header-block"><div class="pod"></div></li>
+          <li class="header-block"><div class="twit"></div></li>
+          <li class="header-block"><div class="you"></div></li>
+
         </ul>
 
 
@@ -28,10 +30,12 @@
 
 <!-- site navigation -->
       <div class="nav-bar">
-        <div class="nav-button">Sk8t News</div>
-        <div class="nav-button">Skateboarders</div>
-        <div class="nav-button">Board Design</div>
-        <div class="nav-button">Contact Us</div>
+        <div class="nav-button"><h2>- Sk8t News -</h2></div>
+        <div class="nav-button"><h2>- Skateboarders -</h2></div>
+        <div class="nav-button">
+          <h2>- Board Design -</h2>
+        </div>
+        <div class="nav-button"><h2>- Contact Us -</h2></div>
 
       </div>
 
@@ -40,7 +44,9 @@
 
 <!-- slider row -->
       <div class="slider-row">
-        <img class="slide" src="images/top-image.png" alt="" />
+        <img class="slide" src="images/peralta-logo.png" alt="" />
+
+
 
       </div>
 <!-- slider row -->
@@ -50,13 +56,19 @@
 <!-- articles row -->
       <div class="articles-row">
         <div class="article">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <h1>Tony Hawk Foundation Raises Big Money at Celeb Fundraiser</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+          <h3> [Read More]</h3>
         </div>
         <div class="article">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <h1>Rodney Mullen: "Pop an ollie and innovate!" (Ted Talks)</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+          <h3> [Read More]</h3>
         </div>
         <div class="article">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <h1>Ray Barbee Talks 'Ban This'</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+          <h3> [Read More]</h3>
         </div>
       </div>
 <!-- articles row -->
@@ -64,21 +76,34 @@
 
 
 <!-- skaters row -->
-      <div class="skaters-row">
-        <div class="skater">
-          <img src="images/sk8er-1.png" alt="" />
-        </div>
-        <div class="skater">
-          <img src="images/sk8er-2.png" alt="" />
-        </div>
-        <div class="skater">
-          <img src="images/sk8er-3.png" alt="" />
-        </div>
-        <div class="skater">
-          <img src="images/sk8er-4.png" alt="" />
-        </div>
+      <ul class="skaters-row">
+            <li class="other-skaters">
+                <ul>
 
-      </div>
+                  <li class="skater-b">
+                <p>Lance</p><p> Mountain</p>
+                  </li>
+
+                  <li class="skater-c">
+                <p>Rodney</p> <p> Mullen</p>
+                  </li>
+
+
+                  <li class="h-skater">
+                <p>Steve Caballero</p>
+                  </li>
+                </ul>
+            </li>
+
+
+          <li class="v-skater">
+
+            <p>Tommy</p>
+             <p>Guerro</p>
+
+          </li>
+
+      </ul>
 <!-- skaters row -->
 
 
@@ -104,7 +129,29 @@
 
 <!-- contact row -->
       <div class="contact-row">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <div class="text">
+              <h1>Contact Us</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+            </div>
+            <div class="form">
+                  <form action="index.html" method="post">
+                    <div class="name">
+                      <label for="name">Name:</label>
+                      <input type="text" name="name" value="">
+
+                    </div>
+                    <div class="email">
+                      <label for="mail">E-mail:</label>
+                      <input type="email" name="mail" value="">
+
+                    </div>
+                    <div class="message">
+                      <label for="msg">Message:</label>
+                      <textarea name="message" rows="8" cols="40"></textarea>
+                    </div>
+          </div>
+        </form>
       </div>
 <!-- contacts row -->
 
