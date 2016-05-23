@@ -1,0 +1,25 @@
+.slider-row {
+  display: inline-block;
+  vertical-align: top;
+  background: url('images/top-image.png');
+  background-size: 168%;
+  background-position: 38% 20%;
+  height:300px;
+  width: 98%;
+  border: 10px solid white;
+  margin-top: 2%;
+}
+
+.slider-row .grid {
+  background-image: url("images/grid.png");
+  background-size: 250%;
+  height: 100%;
+    width: 100%;
+}
+
+.slider-row img {
+  width: 40%;
+  height: 73%;
+  margin-top: 5%;
+  margin-left: 2%;
+}

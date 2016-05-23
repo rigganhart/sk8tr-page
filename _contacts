@@ -1,0 +1,19 @@
+// contact row
+.contact-row {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10%;
+  width: 100%;
+  border: 1px solid red;
+  background-color: white;
+}
+.text {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+.form {
+  display: inline-block;
+  vertical-align: top;
+  width: 69%;
+}

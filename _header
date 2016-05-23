@@ -1,0 +1,52 @@
+// header
+.header {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+
+.header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.subscribe {
+  display: inline-block;
+  vertical-align: top;
+  width: 19%;
+  color: white;
+  font-family: helvetica, sans-serif;
+  font-size: 2em;
+  margin-left: 50%;
+}
+
+.subscribe a {
+  text-decoration: none;
+  color: white
+}
+.header-block {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+}
+
+.header-block div{
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    display: inline-block;
+    background-size: contain;
+}
+.face {
+  background-image: url("images/download.png");
+}
+.pod {
+  background-image: url("images/podcast.png");
+}
+.twit {
+  background-image: url("images/download.jpeg");
+
+}
+.you {
+  background-image: url("images/youtube.jpeg");
+}

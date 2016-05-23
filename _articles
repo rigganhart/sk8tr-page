@@ -1,0 +1,32 @@
+// articles row
+.articles-row {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10%;
+  width: 100%;
+
+}
+.article {
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  height: 475px;
+  background-color: white;
+}
+.article h1{
+  color: grey;
+    padding: 5%;
+}
+
+.article p {
+  color: grey;
+  padding: 5%;
+}
+.article h3 {
+  color: #B92D2D;
+  padding: 5%;
+  text-align: center;
+}
+.article .title {
+  min-height: 45%;
+}

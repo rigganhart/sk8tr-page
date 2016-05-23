@@ -1,0 +1,19 @@
+// nav bar
+.nav-bar {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  margin-top: 2%;
+}
+ .nav-button {
+   display: inline-block;
+   vertical-align: top;
+   width: 23%;
+  background-color: #B92D2D;
+  border-bottom: 3px solid grey;
+  margin-left: 1%;
+ }
+ .nav-button h2 {
+   color: white;
+   text-align: center;
+ }
