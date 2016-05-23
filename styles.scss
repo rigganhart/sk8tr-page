@@ -1,5 +1,5 @@
 body {
-  background-image: url("images/bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -77,9 +77,10 @@ body {
  .nav-button {
    display: inline-block;
    vertical-align: top;
-   width: 24%;
-  background-color: red;
+   width: 23%;
+  background-color: #B92D2D;
   border-bottom: 3px solid grey;
+  margin-left: 1%;
  }
  .nav-button h2 {
    color: white;
@@ -90,14 +91,20 @@ body {
 .slider-row {
   display: inline-block;
   vertical-align: top;
-  background: url('images/grid.png.');
   background: url('images/top-image.png');
   background-size: 168%;
   background-position: 38% 20%;
   height:300px;
-  width: 96%;
+  width: 98%;
   border: 10px solid white;
   margin-top: 2%;
+}
+
+.slider-row .grid {
+  background-image: url("images/grid.png");
+  background-size: 250%;
+  height: 100%;
+    width: 100%;
 }
 
 .slider-row img {
@@ -136,9 +143,12 @@ body {
   padding: 5%;
 }
 .article h3 {
-  color: red;
+  color: #B92D2D;
   padding: 5%;
   text-align: center;
+}
+.article .title {
+  min-height: 45%;
 }
 
 
@@ -227,7 +237,12 @@ body {
   margin: 0;
   font-size: 150%;
 }
-
+.names-h {
+  margin-top: 14%;
+}
+.names-v {
+  margin-top: 71%;
+}
 
 // decks row
 .decks-row {
