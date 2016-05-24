@@ -1,18 +1,5 @@
-body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/bg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
-// main column
-.main-column {
-  vertical-align: top;
-  display: inline-block;
-  width: 55%;
-  padding-left: 24%;
-}
-
-
+@import '_body';
 @import '_header';
 @import '_navbar';
 @import '_slidebar';
@@ -20,3 +7,4 @@ body {
 @import '_skaters';
 @import '_decks';
 @import '_contacts';
+@import '_iphone';
