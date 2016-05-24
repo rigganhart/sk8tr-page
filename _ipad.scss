@@ -1,0 +1,26 @@
+@media (min-width: 481px), and (max-width: 1024px) {
+  .header {
+    display: none;
+  }
+  .articles {
+    display: none;
+  }
+  .contact-row {
+    display: none;
+  }
+  .skaters-row .other-skaters {
+    width: 100%;
+    height: 70%;
+  }
+  .h-skater {
+    width: 98%;
+    height: 44%;
+  }
+  .v-skater {
+    width: 98%;
+    height: 38%;
+  }
+  .names-v {
+    margin-top: 9%;
+  }
+}
